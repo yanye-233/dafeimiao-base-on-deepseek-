@@ -1,0 +1,8 @@
+{
+  "gpt": "E:/3AI/3-GPT-SoVITS/TTSModels/bailu/v2ProPlus/白露/白露-e10.ckpt",
+  "sovits": "E:/3AI/3-GPT-SoVITS/TTSModels/bailu/v2ProPlus/白露/白露_e10_s210.pth",
+  "refer": "E:/3AI/3-GPT-SoVITS/TTSModels/bailu/v2ProPlus/白露/reference_audios/中文/emotions/【开心】病房就在那边，你们自己过去吧～下次有时间再来找我玩哦！.wav",
+  "prompt_text": "病房就在那边，你们自己过去吧～下次有时间再来找我玩哦！",
+  "prompt_lang": "zh",
+  "note": "妈妈(芷芷)热线音色配置: 当前=白露(候选试运行); 换音色改此文件并删tts_state.json; 候选纳西妲zip在TTSModels下"
+}
