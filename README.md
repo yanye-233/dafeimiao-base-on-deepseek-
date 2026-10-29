@@ -238,6 +238,7 @@ Key 存在本地 `config.json` 里，**不会上传到任何地方**（除了调
 ├── 启动桌宠.bat           双击启动
 ├── config.json           ← 首次运行自动生成（含 Key，别外传，已 gitignore）
 ├── config.example.json   配置模板
+├── 芷芷设定.example.txt   角色设定模板（真实设定本地私有，不入库）
 ├── requirements.txt
 ├── assets/               图标、音效
 ├── sprites/              形象（大肥鱼 / 小芷芷 + dsh 动作立绘）

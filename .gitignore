@@ -16,6 +16,7 @@ _backup/
 # 和 AI 的聊天记忆（私密）
 zhizhi_memory.json*
 zhizhi_state.json
+芷芷设定.txt
 family_call/mom_inbox/
 family_call/daughter_outbox/
 family_call/voice/
