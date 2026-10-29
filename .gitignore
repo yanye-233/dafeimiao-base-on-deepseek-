@@ -7,7 +7,7 @@ app_time.json
 lyrics_cache.json
 
 # 密钥/隐私数据（备份前再检查一遍）
-# family_call/api_ref.json 里有 OpenClaw 网关 token + 智谱 key
+# family_call/api_ref.json 里有 OpenClaw 网关 token + 智谱 key + kimi key
 family_call/api_ref.json
 # _backup/ 旧备份里有一份带 key 的 config.json
 _backup/
@@ -19,6 +19,9 @@ zhizhi_state.json
 family_call/mom_inbox/
 family_call/daughter_outbox/
 family_call/voice/
+# 记忆系统真实数据（私密，只入库代码与合成测试数据）
+_beta_mem/data/
+
 # TTS 语音缓存（量大且私密）
 voice_cache/
 
@@ -30,6 +33,19 @@ sense_voice/
 dsh_staging*/
 dsh_fullbody*/
 zone_map_debug.png
+
+# 触摸分区调试/中间产物
+custom_zhizhi/touch_test_log.jsonl
+custom_zhizhi/zone_overlay_test.png
+custom_zhizhi/zhizhi_front_bak_v2.png
+custom_zhizhi/_p*.json
+custom_zhizhi/_r*.json
+
+# family_call 运行时状态（热写文件）与临时脚本
+family_call/ring.json
+family_call/hangup.json
+family_call/tts_state.json
+family_call/_tmp_write.ps1
 
 # 日志
 *.log
